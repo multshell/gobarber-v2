@@ -3,6 +3,6 @@ module.exports = {
   rules: {
     'subject-case': [2, 'always', 'lower-case'],
     'scope-enum': [2, 'always', ['chore', 'feat', 'test', 'docs', 'fix']],
-    'scope-empty': [2, 'always']
+    'scope-empty': [2, 'never']
   }
 };
